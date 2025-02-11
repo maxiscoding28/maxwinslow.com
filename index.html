@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max Winslow – Software Handyman 🛠️</title>
+    <style>
+        /* Base Styles */
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #FAFAFA;
+            color: #222;
+            text-align: center;
+        }
+
+        /* Flex container for profile image & name */
+        .profile-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px; /* Space between image and text */
+            margin-bottom: 1rem;
+        }
+
+        .profile-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Header */
+        .text-container {
+            text-align: left;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin: 0;
+            font-weight: 700;
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin: 0;
+            opacity: 0.8;
+        }
+
+        /* Paragraphs */
+        p {
+            max-width: 600px;
+            font-size: 1rem;
+            line-height: 1.6;
+            opacity: 0.85;
+        }
+
+        /* Links */
+        .links {
+            margin-top: 1.5em;
+        }
+        .links a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: 500;
+            margin: 0 15px;
+            padding: 0 0 5px;
+            transition: opacity 0.3s ease-in-out;
+        }
+        .links a:hover {
+            opacity: 0.7;
+        }
+
+        a {
+            color: #007BFF; /* Default link color */
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        a:visited {
+            color: #007BFF; /* Ensures the color remains the same even after clicking */
+        }
+
+        a:hover {
+            opacity: 0.7; /* Subtle hover effect */
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: #0056b3; /* Optional: Slightly darker blue when clicked */
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            .profile-container {
+                flex-direction: column;
+                text-align: center;
+            }
+            h1 { font-size: 1.75rem; }
+            h2 { font-size: 1.25rem; }
+            p { font-size: 0.95rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-container">
+        <img src="https://avatars.githubusercontent.com/u/43095669?s=400&u=bf532080e93c9ff4250769e965bdc1540ecda796&v=4" 
+             alt="Profile Image" class="profile-image">
+        <div class="text-container">
+            <h1>Max Winslow</h1>
+            <h2>Software Handyman 🛠️</h2>
+        </div>
+    </div>
+
+    <p>
+        I help small businesses, families, and older adults with technology.<br>
+        From fixing issues to setting up software, I make systems work better.<br>
+        I ensure technology serves you—not the other way around.<br>
+        <br>
+        I solve business problems with software.<br>
+        If software is the problem, I fix it.<br>
+        I don’t just provide a solution—I make sure you understand it.<br>
+        A quick fix works for today. Knowing how to solve it lasts a lifetime.<br>
+        <br>
+        My goal isn’t just to fix technology, but to empower you to manage it on your own.<br>
+    </p>
+
+    <p>
+        I have over 7 years of experience in the software and IT industry.<br>
+        I hold a Master’s in Computer Information Systems from Colorado State University.<br>
+        I understand how software is built, how it breaks, and how to make it work for you.<br>
+    </p>
+
+    <h3><a href="services.html">Book Me Here</a></h3>
+
+
+    <div class="links">
+        <a href="services.html">Services</a>
+        <a href="https://www.linkedin.com/in/maxwinslow" target="_blank">LinkedIn</a>
+        <a href="https://github.com/maxiscoding28" target="_blank">GitHub</a>
+        <a href="https://drive.google.com/file/d/1FqOX_bhaUp_v3_7FlbIg4AiV8VcJBXN-/view?usp=sharing" target="_blank">Resume</a>
+    </div>
+
+</body>
+</html>

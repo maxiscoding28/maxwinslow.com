@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing – The Software Handyman 🛠️</title>
+    <style>
+        /* Base Styles */
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            background-color: #FAFAFA;
+            color: #222;
+            padding-top: 40px;
+        }
+
+        /* Header */
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0.5em;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin-bottom: 1rem;
+            opacity: 0.8;
+        }
+
+        /* Flexbox Container for Pricing Sections */
+        .pricing-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+
+        /* Individual Pricing Section */
+        .pricing-section {
+            flex: 1;
+            min-width: 300px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        /* Pricing Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f4f4f4;
+            font-weight: 600;
+        }
+
+        /* Links */
+        .links {
+            margin-top: 1.5em;
+        }
+        .links a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: 500;
+            margin: 0 15px;
+            transition: opacity 0.3s ease-in-out;
+        }
+        .links a:hover {
+            opacity: 0.7;
+        }
+
+        .contact-banner {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: #007BFF;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 0.9rem;
+        font-weight: 500;
+        z-index: 1000;
+    }
+
+    .contact-banner a {
+        color: #fff;
+        font-weight: bold;
+        text-decoration: none;
+        margin-left: 8px;
+        padding: 5px 10px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 5px;
+        transition: background 0.3s ease-in-out;
+    }
+
+    .contact-banner a:hover {
+        background: rgba(255, 255, 255, 0.4);
+    }
+
+        /* Responsive Design */
+        @media (max-width: 900px) {
+            .pricing-container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>The Software Handyman 🛠️</h1>
+    <h2>Pricing & Services</h2>
+    <div class="contact-banner">
+        <p>Need tech help?  
+           <a href="https://forms.gle/vYkKdofdgAHggqgHA" target="_blank">Fill out the request form</a>
+        </p>
+    </div>
+    <div class="pricing-container">
+
+        <!-- Hourly Rates -->
+        <div class="pricing-section">
+            <h3>Hourly Rates</h3>
+            <table>
+                <tr><th>Service</th><th>Rate</th></tr>
+                <tr><td>Personal Tech Support (Seniors & Individuals)</td><td>$30/hour</td></tr>
+                <tr><td>Small Business Tech Support & Automation</td><td>$50/hour</td></tr>
+                <tr><td>Advanced IT & DevOps (Cloud, CI/CD, Automation)</td><td>$75/hour</td></tr>
+            </table>
+        </div>
+
+        <!-- Flat-Rate Services -->
+        <div class="pricing-section">
+            <h3>Flat-Rate Services</h3>
+            <table>
+                <tr><th>Service</th><th>Price</th></tr>
+                <tr><td>New Device Setup (Computer, Phone, Tablet, Smart TV)</td><td>$50</td></tr>
+                <tr><td>Wi-Fi & Printer Setup (Home or Small Business)</td><td>$75</td></tr>
+                <tr><td>Business Email & Calendar Setup</td><td>$75</td></tr>
+                <tr><td>CRM Setup (HubSpot, Zoho, Salesforce Lite)</td><td>$75</td></tr>
+                <tr><td>Cloud Storage & Backup Setup</td><td>$75</td></tr>
+                <tr><td>Website Setup (Wix, Squarespace, WordPress)</td><td>$200</td></tr>
+                <tr><td>Business Process Automation (Zapier, Power Automate)</td><td>$125+</td></tr>
+                <tr><td>Security & Privacy Setup (Password Managers, Scam Prevention Training)</td><td>$50</td></tr>
+                <tr><td>Social Media or Video Calling Help</td><td>$30</td></tr>
+            </table>
+        </div>
+
+        <!-- Subscription Plans -->
+        <div class="pricing-section">
+            <h3>Subscription Plans (Ongoing Support)</h3>
+            <table>
+                <tr><th>Plan</th><th>Price</th><th>Includes</th></tr>
+                <tr><td>🟢 Basic Support (Individuals & Seniors)</td><td>$30/month</td><td>1 call + email/chat support</td></tr>
+                <tr><td>🔵 Business Essentials (Small Businesses)</td><td>$100/month</td><td>3 support calls + software updates</td></tr>
+                <tr><td>🟣 Advanced IT & Automation</td><td>$200/month</td><td>5 support calls + automation & security audits</td></tr>
+            </table>
+        </div>
+
+    </div>
+
+    <!-- Links -->
+    <div class="links">
+        <a href="index.html">Home</a>
+        <a href="https://www.linkedin.com/in/maxwinslow" target="_blank">LinkedIn</a>
+        <a href="https://github.com/maxiscoding28" target="_blank">GitHub</a>
+        <a href="https://drive.google.com/file/d/1FqOX_bhaUp_v3_7FlbIg4AiV8VcJBXN-/view?usp=sharing" target="_blank">Resume</a>
+    </div>
+
+</body>
+</html>
